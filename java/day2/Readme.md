@@ -46,7 +46,7 @@ e1.setId(123);
 
 Create classes `Circle` and `Cylinder` as shown in the _UML_ diagram below:
 
-<img src="images/ExerciseOOP_CircleCylinder.png">
+<img src="https://github.com/kayartaya-vinod/2019_07_SAPIENT_BOOTCAMP/raw/master/JavaWorkspace/Assignments/images/ExerciseOOP_CircleCylinder.png">
 
 In the `main()` function of a Program class, create an array of `Circle` references with the initialization shown below:
 
@@ -67,7 +67,7 @@ Print the area of the circular region of each cylinder along with the volume of 
 
 Create the classes `Person`, `Student`, and `Staff` as shown in the _UML_ diagram below:
 
-<img src="images/ExerciseOOP_PersonAndSubclasses.png">
+<img src="https://github.com/kayartaya-vinod/2019_07_SAPIENT_BOOTCAMP/raw/master/JavaWorkspace/Assignments/images/ExerciseOOP_PersonAndSubclasses.png">
 
 In the `main()` function of a Program class, create an array of `Person` references with the initialization shown below:
 
@@ -90,7 +90,7 @@ Print the details of all `Person` objects (using the `toString()`).
 
 Create the classes `Shape`, `Circle`, `Rectangle`, and `Square` as shown in the _UML_ diagram below:
 
-<img src="images/ExerciseOOP_ShapeAndSubclasses.png">
+<img src="https://github.com/kayartaya-vinod/2019_07_SAPIENT_BOOTCAMP/raw/master/JavaWorkspace/Assignments/images/ExerciseOOP_ShapeAndSubclasses.png">
 
 The `toString` function of the above classes should return text as given below:
 
