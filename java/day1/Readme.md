@@ -179,7 +179,7 @@ In trignometry, the Sine of an angle is represented by the series below:
 
 <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/3d9689077ce39529e3198213901261ebcf48197d">
 
-Write a Java function that accepts angle in degrees and returns the sine of the given angle.
+Write a Java function that accepts angle in radians and returns the sine of the given angle.
 
 Call the function in main, multiple times by supplying multiple values and verify the same.
 
