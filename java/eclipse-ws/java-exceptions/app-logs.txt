@@ -1,0 +1,115 @@
+[ INFO] 2022-09-07 10:40:47,287 main            com.sony.programs.ExceptionDemo [  12] this is an info message
+[ WARN] 2022-09-07 10:40:47,287 main            com.sony.programs.ExceptionDemo [  13] this is a warn message
+[ERROR] 2022-09-07 10:40:47,287 main            com.sony.programs.ExceptionDemo [  14] this is an error message
+[TRACE] 2022-09-07 10:41:23,678 main            com.sony.programs.ExceptionDemo [  10] this is a trace message
+[DEBUG] 2022-09-07 10:41:23,679 main            com.sony.programs.ExceptionDemo [  11] this is a debug message
+[ INFO] 2022-09-07 10:41:23,679 main            com.sony.programs.ExceptionDemo [  12] this is an info message
+[ WARN] 2022-09-07 10:41:23,679 main            com.sony.programs.ExceptionDemo [  13] this is a warn message
+[ERROR] 2022-09-07 10:41:23,679 main            com.sony.programs.ExceptionDemo [  14] this is an error message
+[ INFO] 2022-09-07 10:41:52,604 main            com.sony.programs.ExceptionDemo [  12] this is an info message
+[ WARN] 2022-09-07 10:41:52,605 main            com.sony.programs.ExceptionDemo [  13] this is a warn message
+[ERROR] 2022-09-07 10:41:52,606 main            com.sony.programs.ExceptionDemo [  14] this is an error message
+[TRACE] 2022-09-07 10:42:04,932 main            com.sony.programs.ExceptionDemo [  10] this is a trace message
+[DEBUG] 2022-09-07 10:42:04,933 main            com.sony.programs.ExceptionDemo [  11] this is a debug message
+[ INFO] 2022-09-07 10:42:04,933 main            com.sony.programs.ExceptionDemo [  12] this is an info message
+[ WARN] 2022-09-07 10:42:04,933 main            com.sony.programs.ExceptionDemo [  13] this is a warn message
+[ERROR] 2022-09-07 10:42:04,934 main            com.sony.programs.ExceptionDemo [  14] this is an error message
+[TRACE] 2022-09-07 10:44:21,867 main            com.sony.programs.ExceptionDemo [  10] this is a trace message
+[DEBUG] 2022-09-07 10:44:21,868 main            com.sony.programs.ExceptionDemo [  11] this is a debug message
+[ INFO] 2022-09-07 10:44:21,868 main            com.sony.programs.ExceptionDemo [  12] this is an info message
+[ WARN] 2022-09-07 10:44:21,868 main            com.sony.programs.ExceptionDemo [  13] this is a warn message
+[ERROR] 2022-09-07 10:44:21,868 main            com.sony.programs.ExceptionDemo [  14] this is an error message
+[TRACE] 2022-09-07 10:44:38,222 main            com.sony.programs.ExceptionDemo [  10] this is a trace message
+[DEBUG] 2022-09-07 10:44:38,223 main            com.sony.programs.ExceptionDemo [  11] this is a debug message
+[ INFO] 2022-09-07 10:44:38,223 main            com.sony.programs.ExceptionDemo [  12] this is an info message
+[ WARN] 2022-09-07 10:44:38,224 main            com.sony.programs.ExceptionDemo [  13] this is a warn message
+[ERROR] 2022-09-07 10:44:38,224 main            com.sony.programs.ExceptionDemo [  14] this is an error message
+[TRACE] 2022-09-07 10:45:25,790 main            com.sony.programs.ExceptionDemo [  10] this is a trace message
+[DEBUG] 2022-09-07 10:45:25,791 main            com.sony.programs.ExceptionDemo [  11] this is a debug message
+[ INFO] 2022-09-07 10:45:25,791 main            com.sony.programs.ExceptionDemo [  12] this is an info message
+[ WARN] 2022-09-07 10:45:25,791 main            com.sony.programs.ExceptionDemo [  13] this is a warn message
+[ERROR] 2022-09-07 10:45:25,791 main            com.sony.programs.ExceptionDemo [  14] this is an error message
+[TRACE] 2022-09-07 10:46:32,698 main            com.sony.programs.ExceptionDemo [  10] this is a trace message
+[DEBUG] 2022-09-07 10:46:32,699 main            com.sony.programs.ExceptionDemo [  11] this is a debug message
+[ INFO] 2022-09-07 10:46:32,699 main            com.sony.programs.ExceptionDemo [  12] this is an info message
+[ WARN] 2022-09-07 10:46:32,699 main            com.sony.programs.ExceptionDemo [  13] this is a warn message
+[ERROR] 2022-09-07 10:46:32,699 main            com.sony.programs.ExceptionDemo [  14] this is an error message
+[TRACE] 2022-09-07 10:46:49,774 main            com.sony.programs.ExceptionDemo [  10] this is a trace message
+
+[DEBUG] 2022-09-07 10:46:49,775 main            com.sony.programs.ExceptionDemo [  11] this is a debug message
+
+[ INFO] 2022-09-07 10:46:49,775 main            com.sony.programs.ExceptionDemo [  12] this is an info message
+
+[ WARN] 2022-09-07 10:46:49,775 main            com.sony.programs.ExceptionDemo [  13] this is a warn message
+
+[ERROR] 2022-09-07 10:46:49,775 main            com.sony.programs.ExceptionDemo [  14] this is an error message
+
+[DEBUG] 2022-09-07 11:18:09,431 main            com.sony.programs.ExceptionDemo [  10] There are 0 command line arguments
+[DEBUG] 2022-09-07 11:19:53,710 main            com.sony.programs.ExceptionDemo [  10] There are 0 command line arguments
+[DEBUG] 2022-09-07 11:20:15,489 main            com.sony.programs.ExceptionDemo [  10] There are 0 command line arguments
+[DEBUG] 2022-09-07 11:21:08,706 main            com.sony.programs.ExceptionDemo [  10] There are 4 command line arguments
+[DEBUG] 2022-09-07 11:21:08,707 main            com.sony.programs.ExceptionDemo [  12] argument at index 0 is Vinod Kumar
+[DEBUG] 2022-09-07 11:21:08,707 main            com.sony.programs.ExceptionDemo [  12] argument at index 1 is Bangalore
+[DEBUG] 2022-09-07 11:21:08,707 main            com.sony.programs.ExceptionDemo [  12] argument at index 2 is Karnataka
+[DEBUG] 2022-09-07 11:21:08,707 main            com.sony.programs.ExceptionDemo [  12] argument at index 3 is India
+[DEBUG] 2022-09-07 11:21:24,579 main            com.sony.programs.ExceptionDemo [  10] There are 4 command line arguments
+[DEBUG] 2022-09-07 11:21:24,580 main            com.sony.programs.ExceptionDemo [  12] argument at index 0 is Vinod Kumar
+[DEBUG] 2022-09-07 11:21:24,580 main            com.sony.programs.ExceptionDemo [  12] argument at index 1 is Bangalore
+[DEBUG] 2022-09-07 11:21:24,580 main            com.sony.programs.ExceptionDemo [  12] argument at index 2 is Karnataka
+[DEBUG] 2022-09-07 11:21:24,580 main            com.sony.programs.ExceptionDemo [  12] argument at index 3 is India
+[DEBUG] 2022-09-07 11:21:43,318 main            com.sony.programs.ExceptionDemo [  10] There are 2 command line arguments
+[DEBUG] 2022-09-07 11:21:43,319 main            com.sony.programs.ExceptionDemo [  12] argument at index 0 is 1234
+[DEBUG] 2022-09-07 11:21:43,319 main            com.sony.programs.ExceptionDemo [  12] argument at index 1 is 45
+[DEBUG] 2022-09-07 11:34:38,352 main            com.sony.programs.ExceptionDemo [  19] 1234 / 45 = 27
+[DEBUG] 2022-09-07 11:34:38,353 main            com.sony.programs.ExceptionDemo [  21] End of main() reached
+[DEBUG] 2022-09-07 11:35:10,363 main            com.sony.programs.ExceptionDemo [  20] 1234 / 45 = 27 with reminder 19
+[DEBUG] 2022-09-07 11:35:10,364 main            com.sony.programs.ExceptionDemo [  22] End of main() reached
+[ WARN] 2022-09-07 11:48:36,799 main            com.sony.programs.ExceptionDemo [  24] Something went wrong. Actual error is For input string: "ten"
+[DEBUG] 2022-09-07 11:48:36,801 main            com.sony.programs.ExceptionDemo [  27] End of main() reached
+[ WARN] 2022-09-07 11:49:18,074 main            com.sony.programs.ExceptionDemo [  24] Something went wrong. Exception type is - class java.lang.NumberFormatException and message is  - For input string: "ten"
+[DEBUG] 2022-09-07 11:49:18,075 main            com.sony.programs.ExceptionDemo [  27] End of main() reached
+[ WARN] 2022-09-07 11:49:35,369 main            com.sony.programs.ExceptionDemo [  23] Something went wrong. Exception type is - java.lang.NumberFormatException and message is  - For input string: "ten"
+[DEBUG] 2022-09-07 11:49:35,370 main            com.sony.programs.ExceptionDemo [  27] End of main() reached
+[ WARN] 2022-09-07 11:49:57,211 main            com.sony.programs.ExceptionDemo [  23] Something went wrong. Exception type is - java.lang.ArithmeticException and message is  - / by zero
+[DEBUG] 2022-09-07 11:49:57,212 main            com.sony.programs.ExceptionDemo [  27] End of main() reached
+[ WARN] 2022-09-07 11:50:17,964 main            com.sony.programs.ExceptionDemo [  23] Something went wrong. Exception type is - java.lang.ArrayIndexOutOfBoundsException and message is  - Index 1 out of bounds for length 1
+[DEBUG] 2022-09-07 11:50:17,966 main            com.sony.programs.ExceptionDemo [  27] End of main() reached
+[DEBUG] 2022-09-07 11:50:37,251 main            com.sony.programs.ExceptionDemo [  21] 1234 / 23 = 53 with reminder 15
+[DEBUG] 2022-09-07 11:50:37,252 main            com.sony.programs.ExceptionDemo [  27] End of main() reached
+[DEBUG] 2022-09-07 12:07:50,604 main            com.sony.programs.ExceptionDemo [  21] 1234 / 23 = 53 with reminder 15
+[DEBUG] 2022-09-07 12:07:50,605 main            com.sony.programs.ExceptionDemo [  37] End of main() reached
+[ WARN] 2022-09-07 12:09:34,348 main            com.sony.programs.ExceptionDemo [  27] Cannot divide an integer by zero
+[DEBUG] 2022-09-07 12:09:34,349 main            com.sony.programs.ExceptionDemo [  37] End of main() reached
+[ WARN] 2022-09-07 12:09:51,832 main            com.sony.programs.ExceptionDemo [  24] Not enough parameters. Required 2 but got 1
+[DEBUG] 2022-09-07 12:09:51,833 main            com.sony.programs.ExceptionDemo [  37] End of main() reached
+[ WARN] 2022-09-07 12:10:18,545 main            com.sony.programs.ExceptionDemo [  30] Required only integers, but received 1234
+[DEBUG] 2022-09-07 12:10:18,547 main            com.sony.programs.ExceptionDemo [  37] End of main() reached
+[ WARN] 2022-09-07 12:11:20,399 main            com.sony.programs.ExceptionDemo [  32] Required only integers, but received [1234, asdf]
+[DEBUG] 2022-09-07 12:11:20,400 main            com.sony.programs.ExceptionDemo [  39] End of main() reached
+[ WARN] 2022-09-07 12:21:38,498 main            com.sony.programs.ExceptionDemo [  32] Required only integers, but received [1234, asdf]
+[DEBUG] 2022-09-07 12:21:38,499 main            com.sony.programs.ExceptionDemo [  39] This is from inside of finally block
+[DEBUG] 2022-09-07 12:21:38,500 main            com.sony.programs.ExceptionDemo [  42] End of main() reached
+[ WARN] 2022-09-07 12:21:53,888 main            com.sony.programs.ExceptionDemo [  29] Cannot divide an integer by zero
+[DEBUG] 2022-09-07 12:21:53,890 main            com.sony.programs.ExceptionDemo [  39] This is from inside of finally block
+[DEBUG] 2022-09-07 12:21:53,890 main            com.sony.programs.ExceptionDemo [  42] End of main() reached
+[ WARN] 2022-09-07 12:22:12,189 main            com.sony.programs.ExceptionDemo [  26] Not enough parameters. Required 2 but got 1
+[DEBUG] 2022-09-07 12:22:12,190 main            com.sony.programs.ExceptionDemo [  39] This is from inside of finally block
+[DEBUG] 2022-09-07 12:22:12,190 main            com.sony.programs.ExceptionDemo [  42] End of main() reached
+[DEBUG] 2022-09-07 12:22:25,586 main            com.sony.programs.ExceptionDemo [  23] 1234 / 22 = 56 with reminder 2
+[DEBUG] 2022-09-07 12:22:25,587 main            com.sony.programs.ExceptionDemo [  39] This is from inside of finally block
+[DEBUG] 2022-09-07 12:22:25,588 main            com.sony.programs.ExceptionDemo [  42] End of main() reached
+[ WARN] 2022-09-07 12:23:25,166 main            com.sony.programs.ExceptionDemo [  29] Cannot divide an integer by zero
+[DEBUG] 2022-09-07 12:23:25,167 main            com.sony.programs.ExceptionDemo [  40] This is from inside of finally block
+[DEBUG] 2022-09-07 12:24:17,259 main            com.sony.programs.ExceptionDemo [  40] This is from inside of finally block
+[ WARN] 2022-09-07 12:25:35,102 main            com.sony.programs.ExceptionDemo [  29] Cannot divide an integer by zero
+[DEBUG] 2022-09-07 12:53:23,169 main            com.sony.programs.TryWithResourcesDemo [  34] reader.close() succeeded
+[ WARN] 2022-09-07 12:53:56,439 main            com.sony.programs.TryWithResourcesDemo [  26] The speficied file 'src/main/resources/log4j.proprties' does not exist!
+[DEBUG] 2022-09-07 12:54:43,361 main            com.sony.programs.TryWithResourcesDemo [  36] reader.close() succeeded
+[ WARN] 2022-09-07 12:58:18,683 main            com.sony.programs.TryWithResourcesDemo [  24] Something went wrong! - {}
+java.io.FileNotFoundException: src/main/java/ExceptionDemo.java (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at com.sony.programs.TryWithResourcesDemo.main(TryWithResourcesDemo.java:15)
