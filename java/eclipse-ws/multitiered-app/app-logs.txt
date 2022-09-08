@@ -1,0 +1,136 @@
+[TRACE] 2022-09-08 15:55:49,233 main            com.sony.ui.App [  13] App.start() called
+[TRACE] 2022-09-08 15:55:49,235 main            com.sony.ui.App [  38] App.menu() called
+[TRACE] 2022-09-08 15:55:49,235 main            com.sony.ui.App [  49] accepting user choice in App.menu()
+[TRACE] 2022-09-08 15:56:00,107 main            com.sony.ui.App [  51] user entered choice 1
+[TRACE] 2022-09-08 15:56:00,107 main            com.sony.ui.App [  38] App.menu() called
+[TRACE] 2022-09-08 15:56:00,108 main            com.sony.ui.App [  49] accepting user choice in App.menu()
+[TRACE] 2022-09-08 15:56:06,691 main            com.sony.ui.App [  51] user entered choice 99
+[TRACE] 2022-09-08 15:56:06,691 main            com.sony.ui.App [  38] App.menu() called
+[TRACE] 2022-09-08 15:56:06,692 main            com.sony.ui.App [  49] accepting user choice in App.menu()
+[ WARN] 2022-09-08 15:56:12,873 main            com.sony.ui.App [  54] Exception while accepting user choice in menu
+java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at com.sony.utils.KeyboardUtil.getInt(KeyboardUtil.java:11)
+	at com.sony.ui.App.menu(App.java:50)
+	at com.sony.ui.App.start(App.java:16)
+	at com.sony.programs.Main.main(Main.java:9)
+[TRACE] 2022-09-08 15:56:12,875 main            com.sony.ui.App [  38] App.menu() called
+[TRACE] 2022-09-08 15:56:12,876 main            com.sony.ui.App [  49] accepting user choice in App.menu()
+[TRACE] 2022-09-08 15:56:16,419 main            com.sony.ui.App [  51] user entered choice 0
+[TRACE] 2022-09-08 15:56:16,419 main            com.sony.ui.App [  34] End of App.start()
+[TRACE] 2022-09-08 15:57:07,011 main            com.sony.ui.App [  13] App.start() called
+[TRACE] 2022-09-08 15:57:07,013 main            com.sony.ui.App [  39] App.menu() called
+[TRACE] 2022-09-08 15:57:07,013 main            com.sony.ui.App [  50] accepting user choice in App.menu()
+[TRACE] 2022-09-08 15:57:09,399 main            com.sony.ui.App [  52] user entered choice 1
+[TRACE] 2022-09-08 15:57:09,399 main            com.sony.ui.App [  39] App.menu() called
+[TRACE] 2022-09-08 15:57:09,399 main            com.sony.ui.App [  50] accepting user choice in App.menu()
+[TRACE] 2022-09-08 15:57:12,930 main            com.sony.ui.App [  52] user entered choice 0
+[TRACE] 2022-09-08 15:57:12,931 main            com.sony.ui.App [  35] End of App.start()
+[TRACE] 2022-09-08 16:14:59,206 main            com.sony.dao.ProductDao [  16] ProductDao constructed
+[TRACE] 2022-09-08 16:14:59,213 main            com.sony.dao.ProductDao [  22] 3 products added to the map
+[TRACE] 2022-09-08 16:14:59,214 main            com.sony.ui.App [  18] App.start() called
+[TRACE] 2022-09-08 16:14:59,214 main            com.sony.ui.App [  51] App.menu() called
+[TRACE] 2022-09-08 16:14:59,214 main            com.sony.ui.App [  62] accepting user choice in App.menu()
+[TRACE] 2022-09-08 16:15:06,795 main            com.sony.ui.App [  64] user entered choice 1
+[TRACE] 2022-09-08 16:15:06,796 main            com.sony.service.ProductService [  15] ProductService.getAllProducts() called.
+[TRACE] 2022-09-08 16:15:06,796 main            com.sony.dao.ProductDao [  26] ProductDao.getAllProducts() called
+[TRACE] 2022-09-08 16:15:06,804 main            com.sony.ui.App [  51] App.menu() called
+[TRACE] 2022-09-08 16:15:06,805 main            com.sony.ui.App [  62] accepting user choice in App.menu()
+[TRACE] 2022-09-08 16:15:51,846 main            com.sony.dao.ProductDao [  16] ProductDao constructed
+[TRACE] 2022-09-08 16:15:51,848 main            com.sony.dao.ProductDao [  22] 3 products added to the map
+[TRACE] 2022-09-08 16:15:51,848 main            com.sony.ui.App [  18] App.start() called
+[TRACE] 2022-09-08 16:15:51,848 main            com.sony.ui.App [  52] App.menu() called
+[TRACE] 2022-09-08 16:15:51,848 main            com.sony.ui.App [  63] accepting user choice in App.menu()
+[TRACE] 2022-09-08 16:15:58,050 main            com.sony.ui.App [  65] user entered choice 1
+[TRACE] 2022-09-08 16:15:58,050 main            com.sony.service.ProductService [  15] ProductService.getAllProducts() called.
+[TRACE] 2022-09-08 16:15:58,051 main            com.sony.dao.ProductDao [  26] ProductDao.getAllProducts() called
+[TRACE] 2022-09-08 16:15:58,057 main            com.sony.ui.App [  52] App.menu() called
+[TRACE] 2022-09-08 16:15:58,057 main            com.sony.ui.App [  63] accepting user choice in App.menu()
+[TRACE] 2022-09-08 16:16:08,784 main            com.sony.ui.App [  65] user entered choice 0
+[TRACE] 2022-09-08 16:16:08,785 main            com.sony.ui.App [  48] End of App.start()
+[TRACE] 2022-09-08 16:16:31,291 main            com.sony.dao.ProductDao [  16] ProductDao constructed
+[TRACE] 2022-09-08 16:16:31,293 main            com.sony.dao.ProductDao [  22] 3 products added to the map
+[TRACE] 2022-09-08 16:16:31,293 main            com.sony.ui.App [  18] App.start() called
+[TRACE] 2022-09-08 16:16:31,293 main            com.sony.ui.App [  53] App.menu() called
+[TRACE] 2022-09-08 16:16:31,293 main            com.sony.ui.App [  64] accepting user choice in App.menu()
+[TRACE] 2022-09-08 16:16:35,481 main            com.sony.ui.App [  66] user entered choice 1
+[TRACE] 2022-09-08 16:16:35,482 main            com.sony.service.ProductService [  15] ProductService.getAllProducts() called.
+[TRACE] 2022-09-08 16:16:35,482 main            com.sony.dao.ProductDao [  26] ProductDao.getAllProducts() called
+[TRACE] 2022-09-08 16:16:35,488 main            com.sony.ui.App [  53] App.menu() called
+[TRACE] 2022-09-08 16:16:35,489 main            com.sony.ui.App [  64] accepting user choice in App.menu()
+[TRACE] 2022-09-08 16:16:59,994 main            com.sony.dao.ProductDao [  16] ProductDao constructed
+[TRACE] 2022-09-08 16:16:59,996 main            com.sony.dao.ProductDao [  22] 3 products added to the map
+[TRACE] 2022-09-08 16:16:59,996 main            com.sony.ui.App [  18] App.start() called
+[TRACE] 2022-09-08 16:16:59,996 main            com.sony.ui.App [  53] App.menu() called
+[TRACE] 2022-09-08 16:16:59,996 main            com.sony.ui.App [  64] accepting user choice in App.menu()
+[TRACE] 2022-09-08 16:17:03,397 main            com.sony.ui.App [  66] user entered choice 1
+[TRACE] 2022-09-08 16:17:03,397 main            com.sony.service.ProductService [  15] ProductService.getAllProducts() called.
+[TRACE] 2022-09-08 16:17:03,397 main            com.sony.dao.ProductDao [  26] ProductDao.getAllProducts() called
+[TRACE] 2022-09-08 16:17:03,403 main            com.sony.ui.App [  53] App.menu() called
+[TRACE] 2022-09-08 16:17:03,403 main            com.sony.ui.App [  64] accepting user choice in App.menu()
+[TRACE] 2022-09-08 16:30:11,772 main            com.sony.dao.ProductDao [  16] ProductDao constructed
+[TRACE] 2022-09-08 16:30:11,774 main            com.sony.dao.ProductDao [  22] 3 products added to the map
+[TRACE] 2022-09-08 16:30:11,774 main            com.sony.ui.App [  19] App.start() called
+[TRACE] 2022-09-08 16:30:11,774 main            com.sony.ui.App [  73] App.menu() called
+[TRACE] 2022-09-08 16:30:11,774 main            com.sony.ui.App [  84] accepting user choice in App.menu()
+[TRACE] 2022-09-08 16:30:17,726 main            com.sony.ui.App [  86] user entered choice 1
+[TRACE] 2022-09-08 16:30:17,727 main            com.sony.service.ProductService [  16] ProductService.getAllProducts() called.
+[TRACE] 2022-09-08 16:30:17,727 main            com.sony.dao.ProductDao [  26] ProductDao.getAllProducts() called
+[TRACE] 2022-09-08 16:30:17,733 main            com.sony.ui.App [  73] App.menu() called
+[TRACE] 2022-09-08 16:30:17,733 main            com.sony.ui.App [  84] accepting user choice in App.menu()
+[TRACE] 2022-09-08 16:30:23,894 main            com.sony.ui.App [  86] user entered choice 2
+[TRACE] 2022-09-08 16:30:47,393 main            com.sony.service.ProductService [  40] calling the dao.add() with product = Product(id=654, description=Apple Macbook Pro, price=195000.0, unitsInStock=4)
+[TRACE] 2022-09-08 16:30:47,394 main            com.sony.service.ProductService [  42] product Product(id=654, description=Apple Macbook Pro, price=195000.0, unitsInStock=4) added successfully
+[TRACE] 2022-09-08 16:30:47,394 main            com.sony.ui.App [  73] App.menu() called
+[TRACE] 2022-09-08 16:30:47,394 main            com.sony.ui.App [  84] accepting user choice in App.menu()
+[TRACE] 2022-09-08 16:30:52,975 main            com.sony.ui.App [  86] user entered choice 1
+[TRACE] 2022-09-08 16:30:52,975 main            com.sony.service.ProductService [  16] ProductService.getAllProducts() called.
+[TRACE] 2022-09-08 16:30:52,976 main            com.sony.dao.ProductDao [  26] ProductDao.getAllProducts() called
+[TRACE] 2022-09-08 16:30:52,979 main            com.sony.ui.App [  73] App.menu() called
+[TRACE] 2022-09-08 16:30:52,979 main            com.sony.ui.App [  84] accepting user choice in App.menu()
+[TRACE] 2022-09-08 16:31:07,327 main            com.sony.ui.App [  86] user entered choice 1
+[TRACE] 2022-09-08 16:31:07,327 main            com.sony.service.ProductService [  16] ProductService.getAllProducts() called.
+[TRACE] 2022-09-08 16:31:07,327 main            com.sony.dao.ProductDao [  26] ProductDao.getAllProducts() called
+[TRACE] 2022-09-08 16:31:07,331 main            com.sony.ui.App [  73] App.menu() called
+[TRACE] 2022-09-08 16:31:07,331 main            com.sony.ui.App [  84] accepting user choice in App.menu()
+[TRACE] 2022-09-08 16:31:13,672 main            com.sony.ui.App [  86] user entered choice 2
+[TRACE] 2022-09-08 16:31:29,080 main            com.sony.service.ProductService [  40] calling the dao.add() with product = Product(id=123, description=asdasda, price=123.0, unitsInStock=22)
+[ WARN] 2022-09-08 16:31:29,082 main            com.sony.service.ProductService [  44] Error while calling dao.add() method with product = Product(id=123, description=asdasda, price=123.0, unitsInStock=22)
+com.sony.dao.DaoException: Product with this ID already exists
+	at com.sony.dao.ProductDao.add(ProductDao.java:32)
+	at com.sony.service.ProductService.addNewProduct(ProductService.java:41)
+	at com.sony.ui.App.start(App.java:48)
+	at com.sony.programs.Main.main(Main.java:9)
+[TRACE] 2022-09-08 16:31:29,083 main            com.sony.ui.App [  73] App.menu() called
+[TRACE] 2022-09-08 16:31:29,083 main            com.sony.ui.App [  84] accepting user choice in App.menu()
+[TRACE] 2022-09-08 16:31:54,716 main            com.sony.ui.App [  86] user entered choice 2
+[TRACE] 2022-09-08 16:32:01,641 main            com.sony.ui.App [  73] App.menu() called
+[TRACE] 2022-09-08 16:32:01,641 main            com.sony.ui.App [  84] accepting user choice in App.menu()
+[TRACE] 2022-09-08 16:32:07,757 main            com.sony.ui.App [  86] user entered choice 1
+[TRACE] 2022-09-08 16:32:07,757 main            com.sony.service.ProductService [  16] ProductService.getAllProducts() called.
+[TRACE] 2022-09-08 16:32:07,757 main            com.sony.dao.ProductDao [  26] ProductDao.getAllProducts() called
+[TRACE] 2022-09-08 16:32:07,759 main            com.sony.ui.App [  73] App.menu() called
+[TRACE] 2022-09-08 16:32:07,760 main            com.sony.ui.App [  84] accepting user choice in App.menu()
+[TRACE] 2022-09-08 16:32:10,467 main            com.sony.ui.App [  86] user entered choice 2
+[TRACE] 2022-09-08 16:32:22,528 main            com.sony.ui.App [  73] App.menu() called
+[TRACE] 2022-09-08 16:32:22,528 main            com.sony.ui.App [  84] accepting user choice in App.menu()
+[TRACE] 2022-09-08 16:32:33,879 main            com.sony.ui.App [  86] user entered choice 2
+[TRACE] 2022-09-08 16:32:42,208 main            com.sony.ui.App [  73] App.menu() called
+[TRACE] 2022-09-08 16:32:42,209 main            com.sony.ui.App [  84] accepting user choice in App.menu()
+[TRACE] 2022-09-08 16:32:55,983 main            com.sony.ui.App [  86] user entered choice 2
+[TRACE] 2022-09-08 16:35:09,557 main            com.sony.dao.ProductDao [  16] ProductDao constructed
+[TRACE] 2022-09-08 16:35:09,560 main            com.sony.dao.ProductDao [  22] 3 products added to the map
+[TRACE] 2022-09-08 16:35:09,560 main            com.sony.ui.App [  19] App.start() called
+[TRACE] 2022-09-08 16:35:09,561 main            com.sony.ui.App [  76] App.menu() called
+[TRACE] 2022-09-08 16:35:09,561 main            com.sony.ui.App [  87] accepting user choice in App.menu()
+[TRACE] 2022-09-08 16:35:14,431 main            com.sony.ui.App [  89] user entered choice 2
+[TRACE] 2022-09-08 16:35:15,470 main            com.sony.ui.App [  76] App.menu() called
+[TRACE] 2022-09-08 16:35:15,470 main            com.sony.ui.App [  87] accepting user choice in App.menu()
+[TRACE] 2022-09-08 16:35:20,140 main            com.sony.ui.App [  89] user entered choice 2
+[TRACE] 2022-09-08 16:35:27,195 main            com.sony.ui.App [  76] App.menu() called
+[TRACE] 2022-09-08 16:35:27,196 main            com.sony.ui.App [  87] accepting user choice in App.menu()
+[TRACE] 2022-09-08 16:35:37,899 main            com.sony.ui.App [  89] user entered choice 0
+[TRACE] 2022-09-08 16:35:37,900 main            com.sony.ui.App [  72] End of App.start()
