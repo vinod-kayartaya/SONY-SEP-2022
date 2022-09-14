@@ -66,14 +66,91 @@ from products as p
     join suppliers as s on p.supplier_id = s.supplier_id
 where discontinued = 0;
 
-select 
-o.order_id, o.order_date, 
-c.company_name, c.contact_name, c.contact_title, c.city,
-concat_ws(' ', e.title_of_courtesy, e.last_name, e.first_name) as employee_name
+select
+    o.order_id,
+    o.order_date,
+    c.company_name,
+    c.contact_name,
+    c.contact_title,
+    c.city,
+    concat_ws(
+        ' ',
+        e.title_of_courtesy,
+        e.last_name,
+        e.first_name
+    ) as employee_name
 from customers c
-join orders o
-on o.customer_id = c.customer_id
-join employees e
-on o.employee_id = e.employee_id;
+    join orders o on o.customer_id = c.customer_id
+    join employees e on o.employee_id = e.employee_id
+where shipped_date is null;
 
+select
+    o.order_id,
+    o.order_date,
+    c.company_name,
+    c.contact_name,
+    c.contact_title,
+    c.city,
+    concat_ws(
+        ' ',
+        e.title_of_courtesy,
+        e.last_name,
+        e.first_name
+    ) as employee_name,
+    sh.company_name as shipping_company
+from customers c
+    join orders o on o.customer_id = c.customer_id
+    join employees e on o.employee_id = e.employee_id
+    join shippers sh on o.ship_via = sh.shipper_id
+where shipped_date is null;
 
+select
+    emp.employee_id,
+    concat_ws(
+        ' ',
+        emp.title_of_courtesy,
+        emp.first_name,
+        emp.last_name
+    ) as employee,
+    concat_ws(
+        ' ',
+        mgr.title_of_courtesy,
+        mgr.first_name,
+        mgr.last_name
+    ) as manager
+from employees emp
+    left join employees mgr on emp.reports_to = mgr.employee_id;
+
+select *
+from products
+where unit_price < (
+        select unit_price
+        from products
+        where product_id = 36
+    );
+
+select avg(unit_price) from products;
+
+select *
+from products
+where unit_price > (
+        select
+            avg(unit_price)
+        from products
+    );
+
+select *
+from products p1
+where unit_price >= (
+        select
+            avg(unit_price)
+        from products p2
+        where
+            p2.category_id = p1.category_id
+    );
+
+select
+    category_id,
+    avg(unit_price)
+from products
+group by category_id;

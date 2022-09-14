@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>java-collections</name>
+	<name>jdbc-basics</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -22,7 +22,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1663128937217</id>
+			<id>1663128937221</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
