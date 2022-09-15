@@ -2,6 +2,7 @@ package com.sony.programs;
 
 import java.util.Scanner; // find all usages of "Scanner" and replace the same with "java.util.Scanner"
 
+@SuppressWarnings({"resource"})
 public class ReadFromKeyboardDemo {
 
 	

@@ -5,7 +5,13 @@ import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
 import com.sony.entity.Category;
+import com.sony.entity.Customer;
+import com.sony.entity.Employee;
+import com.sony.entity.LineItem;
+import com.sony.entity.Order;
 import com.sony.entity.Product;
+import com.sony.entity.Shipper;
+import com.sony.entity.Supplier;
 
 public class HibernateUtil {
 	public static Session createSession() {
@@ -16,11 +22,17 @@ public class HibernateUtil {
 		cfg.setProperty("hibernate.connection.driver_class", "org.h2.Driver");
 		cfg.setProperty("hibernate.dialect", "org.hibernate.dialect.H2Dialect");
 //		cfg.setProperty("hibernate.hbm2ddl.auto", "update");
-		cfg.setProperty("hibernate.show_sql", "true");
+		cfg.setProperty("hibernate.show_sql", "false");
 		cfg.setProperty("hibernate.format_sql", "true");
 
 		cfg.addAnnotatedClass(Product.class);
 		cfg.addAnnotatedClass(Category.class);
+		cfg.addAnnotatedClass(Supplier.class);
+		cfg.addAnnotatedClass(Customer.class);
+		cfg.addAnnotatedClass(Employee.class);
+		cfg.addAnnotatedClass(Shipper.class);
+		cfg.addAnnotatedClass(Order.class);
+		cfg.addAnnotatedClass(LineItem.class);
 
 		SessionFactory factory = cfg.buildSessionFactory();
 		Session session = factory.openSession();

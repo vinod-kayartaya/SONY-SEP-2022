@@ -12,7 +12,7 @@ import lombok.ToString;
 @Data
 @Entity
 @Table(name = "products")
-@ToString(exclude = { "category" })
+@ToString
 public class Product {
 	@Id
 	@Column(name = "product_id")
@@ -25,8 +25,10 @@ public class Product {
 	@JoinColumn(name = "category_id")
 	private Category category;
 
-	@Column(name = "supplier_id")
-	private Integer supplierId;
+	@ManyToOne
+	@JoinColumn(name="supplier_id")
+	private Supplier supplier;
+	
 	@Column(name = "quantity_per_unit")
 	private String quantityPerUnit;
 	@Column(name = "unit_price")

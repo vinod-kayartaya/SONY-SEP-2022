@@ -20,7 +20,7 @@ public class AddNewProduct {
 		p.setUnitsOnOrder(7);
 		p.setReorderLevel(2);
 		// p.setCategoryId(1);
-		p.setSupplierId(1);
+		// p.setSupplierId(1);
 		
 		Session session = HibernateUtil.createSession();
 		Transaction tx = session.beginTransaction();

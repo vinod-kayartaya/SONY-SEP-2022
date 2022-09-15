@@ -25,6 +25,7 @@ public class GetOneProduct {
 		
 		System.out.println("Product = " + p);
 		System.out.println("Category= " + p.getCategory());
+		System.out.println("Supplier= " + p.getSupplier());
 	}
 
 	
