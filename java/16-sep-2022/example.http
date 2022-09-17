@@ -1,0 +1,24 @@
+GET /api/contacts/8ddb7fcf-0a7a-4eeb-a78f-13238ed85a77
+Host: vin-contact-service.herokuapp.com
+Accept: application/xml
+
+###
+GET /api/contacts/8ddb7fcf-0a7a-4eeb-a78f-13238ed85a77
+Host: vin-contact-service.herokuapp.com
+Accept: application/json
+
+###
+GET /api/contacts/8ddb7fcf-0a7a-4eeb-a78f-13238ed85a77
+Host: vin-contact-service.herokuapp.com
+Accept: text/plain
+
+###
+
+PATCH /api/contacts/8ddb7fcf-0a7a-4eeb-a78f-13238ed85a77
+Host: vin-contact-service.herokuapp.com
+Content-Type: application/json
+Accept: application/json
+
+{
+    "email": "efilipyev5c@xmpl.com"
+}

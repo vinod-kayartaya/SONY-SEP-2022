@@ -1,0 +1,19 @@
+{
+    "shipperList": [
+        {
+            "shipperId": 1,
+            "companyName": "Speedy Express",
+            "phone": "(987) 827-2234"
+        },
+        {
+            "shipperId": 2,
+            "companyName": "United Packages",
+            "phone": "(726) 123-2145"
+        },
+        {
+            "shipperId": 3,
+            "companyName": "DHL Couriers",
+            "phone": "(912) 727-1222"
+        }
+    ]
+}

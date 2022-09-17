@@ -1,0 +1,63 @@
+http://localhost:8080/api/shippers
+
+###
+
+GET /api/shippers
+Host: localhost:8080
+Accept: application/json
+
+###
+
+GET /api/shippers
+Host: localhost:8080
+Accept: application/xml
+###
+
+GET /api/shippers
+Host: localhost:8080
+Accept: text/plain
+
+###
+GET /api/shippers/2
+Host: localhost:8080
+Accept: application/json
+
+###
+
+GET /api/shippers/2
+Host: localhost:8080
+Accept: application/xml
+
+###
+
+GET /api/shippers/2
+Host: localhost:8080
+Accept: text/plain
+
+###
+
+
+GET /?s=iron+man
+Host: omdbapi.com
+Accept: application/json
+
+###
+
+POST /api/shippers
+Host: localhost:8080
+Accept: application/json
+Content-Type: application/json
+
+{
+    "companyName": "KVinod Shipping Company",
+    "phone": "(973) 142-4785"
+}
+
+
+###
+
+GET /api/customers
+Host: localhost:8080
+
+
+###
