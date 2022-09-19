@@ -1,0 +1,161 @@
+GET /api/products
+Host: localhost:8080
+Accept: application/json
+
+###
+GET /api/products
+Host: localhost:8080
+Accept: application/xml
+
+###
+GET /api/products/28
+Host: localhost:8080
+Accept: application/json
+
+###
+GET /api/products/28
+Host: localhost:8080
+Accept: application/xml
+
+###
+GET /api/products?_page=1&_limit=15&_sort=name
+Host: localhost:8080
+Accept: application/json
+
+###
+GET /api/products?_page=2
+Host: localhost:8080
+Accept: application/json
+###
+GET /api/products?_limit=5&_sort=unitPrice
+Host: localhost:8080
+Accept: application/json
+
+###
+
+POST /api/products
+Host: localhost:8080
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name": "Diet Coke",
+    "quantityPerUnit": "10 bottles x 20 boxes",
+    "categoryId": 1,
+    "supplierId": 1,
+    "unitPrice": 19.2,
+    "unitsInStock": 10,
+    "unitsOnOrder": 0,
+    "reorderLevel": 2,
+    "discontinued": false
+}
+
+###
+POST /api/products
+Host: localhost:8080
+Content-Type: application/xml
+Accept: application/xml
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<product>
+  <name>Fanta</name>
+  <quantityPerUnit>25 - 825 g cans</quantityPerUnit>
+  <categoryId>1</categoryId>
+  <supplierId>1</supplierId>
+  <unitPrice>45.6</unitPrice>
+  <unitsInStock>26</unitsInStock>
+  <unitsOnOrder>0</unitsOnOrder>
+  <reorderLevel>0</reorderLevel>
+  <discontinued>true</discontinued>
+</product>
+
+###
+
+PUT /api/products/28
+Host: localhost:8080
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": 45,
+  "name": "Rassle Sauerkraut",
+  "quantityPerUnit": "25 - 825 g cans",
+  "categoryId": 7,
+  "supplierId": 12,
+  "unitPrice": 47.5,
+  "unitsInStock": 20,
+  "unitsOnOrder": 5,
+  "reorderLevel": 0,
+  "discontinued": false
+}
+
+###
+PATCH /api/products/28
+Host: localhost:8080
+Content-Type: application/json
+Accept: application/json
+
+{
+  "discontinued": true
+}
+
+###
+
+GET /api/customers/ALFKI
+Host: localhost:8001
+Accept: application/json
+
+###
+GET /api/customers/ALFKI
+Host: localhost:8001
+Accept: application/xml
+
+###
+
+GET /api/customers
+Host: localhost:8001
+Accept: application/json
+
+###
+GET /api/customers
+Host: localhost:8001
+Accept: application/xml
+
+###
+
+post /api/customers
+Host: localhost:8001
+Content-Type: application/xml
+Accept: application/xml
+
+<customer>
+    <customerId>KVND</customerId>
+    <companyName>KVinod Enterprises</companyName>
+    <contactName>Vinod Kumar</contactName>
+    <contactTitle>Sales manager</contactTitle>
+    <address>1st cross 1st main ISRO lyt</address>
+    <city>Bangalore</city>
+    <postalCode>560078</postalCode>
+    <country>India</country>
+    <phone>(973) 142-4784</phone>
+    <fax>(973) 142-4784</fax>
+</customer>
+###
+
+put /api/customers/KVND
+Host: localhost:8001
+Content-Type: application/xml
+Accept: application/xml
+
+<customer>
+    <customerId>KVND</customerId>
+    <companyName>KVinod Enterprises</companyName>
+    <contactName>Vinod Kumar</contactName>
+    <contactTitle>Sales manager</contactTitle>
+    <address>1st cross 1st main ISRO lyt</address>
+    <city>Bangalore</city>
+    <postalCode>560078</postalCode>
+    <country>India</country>
+    <phone>(973) 142-4784</phone>
+    <fax>(973) 142-4784</fax>
+</customer>
