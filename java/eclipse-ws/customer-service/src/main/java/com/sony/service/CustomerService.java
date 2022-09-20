@@ -33,7 +33,7 @@ public class CustomerService {
 	}
 
 	public Customer updateCustomer(String customerId, Customer customer) {
-		Customer c1 = this.getCustomer(customer.getCustomerId());
+		Customer c1 = this.getCustomer(customerId);
 		if (c1 == null) {
 			throw new ServiceException("Customer with this id does not exist");
 		}

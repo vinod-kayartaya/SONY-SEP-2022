@@ -101,12 +101,12 @@ Accept: application/json
 
 ###
 
-GET /api/customers/ALFKI
+GET /api/customers/asd
 Host: localhost:8001
 Accept: application/json
 
 ###
-GET /api/customers/ALFKI
+GET /api/customers/asdf
 Host: localhost:8001
 Accept: application/xml
 
@@ -126,7 +126,7 @@ Accept: application/xml
 post /api/customers
 Host: localhost:8001
 Content-Type: application/xml
-Accept: application/xml
+Accept: application/json
 
 <customer>
     <customerId>KVND</customerId>
@@ -151,9 +151,9 @@ Accept: application/xml
     <customerId>KVND</customerId>
     <companyName>KVinod Enterprises</companyName>
     <contactName>Vinod Kumar</contactName>
-    <contactTitle>Sales manager</contactTitle>
+    <contactTitle>Sales officer</contactTitle>
     <address>1st cross 1st main ISRO lyt</address>
-    <city>Bangalore</city>
+    <city>Bengaluru</city>
     <postalCode>560078</postalCode>
     <country>India</country>
     <phone>(973) 142-4784</phone>

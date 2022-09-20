@@ -16,9 +16,6 @@ import com.sony.entity.ErrorInfo;
 import com.sony.service.CustomerService;
 import com.sony.service.ServiceException;
 
-import lombok.extern.slf4j.Slf4j;
-
-@Slf4j
 @RestController
 @RequestMapping("/api/customers")
 public class CustomerController {
@@ -43,7 +40,6 @@ public class CustomerController {
 	@PostMapping
 	public ResponseEntity<Object> handlePost(@RequestBody Customer customer) {
 		try {
-			log.info("{}", customer);
 			customer = service.addNewCustomer(customer);
 			return ResponseEntity.ok(customer);
 		} catch (ServiceException ex) {
