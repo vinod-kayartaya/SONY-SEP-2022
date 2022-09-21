@@ -1,0 +1,43 @@
+spring:
+  application:
+    name: ORDER-SERVICE
+  datasource:
+    driverClassName: org.h2.Driver
+    url: "jdbc:h2:tcp://localhost/~/vindb"
+    username: root
+    password: Welcome#123
+  jpa:
+    hibernate:
+      ddl-auto: none
+  banner:
+    location: /static/banner.txt
+    
+server:
+  port: 8002
+  
+logging:
+  level:
+    org:
+      springframework: info
+      hibernate: info
+      
+service:
+  urls:
+    shipper: 'http://localhost:8003/api/shippers/'
+    employee: 'http://localhost:8004/api/employees/'
+    customer: 'http://localhost:8001/api/customers/'
+    product: 'http://localhost:8080/api/products/'
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

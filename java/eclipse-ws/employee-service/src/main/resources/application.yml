@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: EMPLOYEE-SERVICE
+  datasource:
+    driverClassName: org.h2.Driver
+    url: "jdbc:h2:tcp://localhost/~/vindb"
+    username: root
+    password: Welcome#123
+  jpa:
+    hibernate:
+      ddl-auto: none
+  banner:
+    location: /static/banner.txt
+    
+server:
+  port: 8004
+  
+logging:
+  level:
+    org:
+      springframework: info
+      hibernate: debug
