@@ -1,0 +1,24 @@
+GET /api/customers/VNDKM
+Host: 34.207.164.156:8001
+Accept: application/json
+
+###
+
+POST /api/customers
+Host: 34.207.164.156:8001
+Accept: application/json
+Content-Type: application/json
+
+{
+  "customerId": "VNDKM",
+  "companyName": "KVINOD INC",
+  "contactName": "Vinod Kumar",
+  "contactTitle": "Sales Manager",
+  "address": "Obere Str. 57",
+  "city": "Berlin",
+  "region": null,
+  "postalCode": "12209",
+  "country": "Germany",
+  "phone": "030-0074321",
+  "fax": "030-0076545"
+}

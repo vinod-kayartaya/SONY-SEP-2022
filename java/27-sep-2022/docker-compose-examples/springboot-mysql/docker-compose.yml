@@ -1,0 +1,28 @@
+version: "3.9"
+
+services:
+  mysql:
+    container_name: mysql-container
+    image: "mysql:latest"
+    environment: 
+      - MYSQL_ROOT_PASSWORD=Welcome#123
+    ports:
+      - "3306:3306"
+      - "33060:33060"
+    restart: always
+    volumes:
+      - mysql_data:/var/lib/mysql
+  
+  customer-service:
+    container_name: customer-service-container
+    build: ./springboot-customer-service # need to have a Dockerfile
+    ports:
+      - "1234:8001"
+    environment:
+      - "JDBC_URL=jdbc:mysql://mysql-container/northwind"
+      - "JDBC_DRIVER_CLASS=com.mysql.cj.jdbc.Driver"
+
+volumes:
+  mysql_data:
+    external: true
+      
